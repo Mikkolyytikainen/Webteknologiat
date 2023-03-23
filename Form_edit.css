@@ -1,0 +1,18 @@
+.form-row {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 4px;
+    justify-content: space-between;
+    font-size: large;
+
+
+}
+
+body {
+    width: 40%;
+    margin: auto;
+}
+
+textarea {
+    width: 100%;
+}

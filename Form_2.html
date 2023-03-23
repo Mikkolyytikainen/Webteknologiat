@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Form</title>
+    <link rel="stylesheet" href="Form_edit.css" </head>
+
+<body>
+    <form>
+        <fieldset class="form-row">
+            <legend>Contact information</legend>
+            <div>
+                <div class="form-row">
+                    <label for="fname">First name:</label>
+                    <input type="text" id="fname" name="fname">
+
+                </div>
+
+                <div class="form-row">
+                    <label for="fname">Last name:</label>
+                    <input type="text" id="lname" name="lname">
+                </div>
+
+                <div class="form-row">
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" name="email">
+                </div>
+
+                <div class="form-row">
+                    <label for="tphone">Telephone:</label>
+                    <input type="text" id="Telephone" name="Telephone">
+                </div>
+
+            </div>
+            <div>
+                <div class="form-row">
+                    <span>Preferred Contact method</span>
+                </div>
+
+                <div class="form-row">
+                    <input type="checkbox" id="email" name="email" value="email">
+                    <label for="email"> Email</label>
+                </div>
+
+                <div class="form-row">
+                    <input type="checkbox" id="phone" name="phone1" value="phone">
+                    <label for="email"> Telephone</label>
+                </div>
+
+            </div>
+        </fieldset>
+    </form>
+
+
+
+
+    <form>
+        <fieldset>
+            <legend>Feedback</legend>
+            <div class="form-row">
+                <label for="subject">Message subject:</label></td>
+                <input type="text" id="subject" name="subject"></td>
+            </div>
+            <div class="form-row">
+                <textarea name="message" rows="15"></textarea></td>
+            </div>
+
+            <div class="form-row">
+                <span>Attach a file:</span>
+                <input type="button" value="Choose file">
+                <span>No file chosen</span>
+            </div>
+
+            <div class="form-row">
+                <td><input type="button" value="Send"></td>
+            </div>
+
+        </fieldset>
+    </form>
+</body>
+
+</html>

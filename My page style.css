@@ -1,0 +1,40 @@
+.tableContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.tableColumn {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.header {
+    font-weight: bold;
+
+}
+
+
+
+
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    font-family: verdana;
+}
+
+h2 {
+    color: black;
+    text-align: center;
+}
+
+p {
+    color: black;
+    font-family: verdana;
+    font-size: 20px;
+}
